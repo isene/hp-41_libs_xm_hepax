@@ -23,3 +23,6 @@ This library contains functions for handling HEPAX files:
 * HGETD: Retrieves HEPAX data file (name in Alpha) to XM
 * HRESZFL: Resizes HEPAX ASCII file (name in Alpha) to specified size (in X)
 
+## License
+This software is released into the Public Domain.
+
