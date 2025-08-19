@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="150" height="150" viewBox="0 0 150 150" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect x="0" y="0" width="150" height="150" fill="#0f172a"/>
+  
+  <!-- HP-41 Calculator base -->
+  <g transform="translate(75, 75)">
+    <rect x="-40" y="-55" width="80" height="100" fill="#2d3748" stroke="#4a5568" stroke-width="2" rx="4"/>
+    
+    <!-- Screen -->
+    <rect x="-35" y="-50" width="70" height="20" fill="#7f9f7f" stroke="#5a6f5a" stroke-width="1" rx="2"/>
+    <text x="0" y="-37" font-family="monospace" font-size="8" fill="#1a2f1a" text-anchor="middle" font-weight="bold">HEPAX/XM</text>
+    
+    <!-- Library modules visualization -->
+    <g transform="translate(0, -10)">
+      <!-- Module slots -->
+      <rect x="-30" y="0" width="15" height="8" fill="#4a5568" stroke="#718096" stroke-width="1" rx="1">
+        <animate attributeName="fill" values="#4a5568;#f59e0b;#4a5568" dur="3s" repeatCount="indefinite"/>
+      </rect>
+      <rect x="-10" y="0" width="15" height="8" fill="#4a5568" stroke="#718096" stroke-width="1" rx="1">
+        <animate attributeName="fill" values="#4a5568;#10b981;#4a5568" dur="3s" begin="0.5s" repeatCount="indefinite"/>
+      </rect>
+      <rect x="10" y="0" width="15" height="8" fill="#4a5568" stroke="#718096" stroke-width="1" rx="1">
+        <animate attributeName="fill" values="#4a5568;#3b82f6;#4a5568" dur="3s" begin="1s" repeatCount="indefinite"/>
+      </rect>
+      
+      <!-- Module labels -->
+      <text x="-22" y="5" font-family="monospace" font-size="4" fill="#fff" text-anchor="middle">XM</text>
+      <text x="-2" y="5" font-family="monospace" font-size="4" fill="#fff" text-anchor="middle">HP</text>
+      <text x="17" y="5" font-family="monospace" font-size="4" fill="#fff" text-anchor="middle">LIB</text>
+    </g>
+    
+    <!-- Memory expansion indicator -->
+    <g transform="translate(0, 10)">
+      <rect x="-25" y="0" width="50" height="6" fill="#1a202c" stroke="#2d3748" stroke-width="1" rx="1"/>
+      <rect x="-23" y="1" width="46" height="4" fill="#059669" rx="1">
+        <animate attributeName="width" values="10;46;10" dur="4s" repeatCount="indefinite"/>
+      </rect>
+      <text x="0" y="12" font-family="monospace" font-size="4" fill="#a0aec0" text-anchor="middle">EXTENDED MEMORY</text>
+    </g>
+    
+    <!-- Function keys -->
+    <g transform="translate(0, 25)">
+      <rect x="-30" y="0" width="12" height="8" fill="#4a5568" stroke="#718096" stroke-width="1" rx="1"/>
+      <rect x="-14" y="0" width="12" height="8" fill="#4a5568" stroke="#718096" stroke-width="1" rx="1"/>
+      <rect x="2" y="0" width="12" height="8" fill="#4a5568" stroke="#718096" stroke-width="1" rx="1"/>
+      <rect x="18" y="0" width="12" height="8" fill="#4a5568" stroke="#718096" stroke-width="1" rx="1"/>
+    </g>
+  </g>
+  
+  <!-- Text -->
+  <text x="75" y="135" font-family="monospace" font-size="10" fill="#fff" text-anchor="middle" font-weight="bold">HP-41 LIBS</text>
+  <text x="75" y="145" font-family="monospace" font-size="6" fill="#94a3b8" text-anchor="middle">XM/HEPAX Libraries</text>
+</svg>
