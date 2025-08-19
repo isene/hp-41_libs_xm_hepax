@@ -6,6 +6,7 @@
 [![Stay Amazing](https://img.shields.io/badge/Stay-Amazing-blue.svg)](https://isene.org)
 
 <img src="img/hp41_libs_logo.svg" align="left" width="150" height="150" alt="HP-41 LIBS Logo">
+<br clear="left"/>
 
 ## HP-41: Libraries for handling XM and HEPAX files
 
